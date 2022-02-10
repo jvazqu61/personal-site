@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+.header{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 30px 10%;
+    box-sizing: border-box;
+    margin: 3rem;
+    padding: 0;
+    border: solid white;
+    border-radius: 2rem;
+    background-color:#35353a;
+    
+}
+.title{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(241, 238, 234);
+
+}
+
+.icons{
+    font-size: 5px!important;
+}
+
+.header nav{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    /* width:40%; */
+    
+    
+}
+.navcenter{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px ;
+}
+
+.navcenter li{
+    display:inline-block;
+    padding: 0px 20px;
+    color: antiquewhite;
+    
+}
+
+.navcenter li a{
+    transition: all 0.3 ease 0s;
+}
+
+
+.navright{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navright li{
+    display:inline-block;
+    padding: 0px 20px;
+    color: antiquewhite;
+    
+}
+
+.navright li a{
+    transition: all 0.3 ease 0s;
+}
+
+
+.header li a:hover{
+    color: cornflowerblue;
+}
+
