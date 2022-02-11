@@ -1,0 +1,20 @@
+.section{
+    color:antiquewhite;
+    margin:3rem;
+
+}
+.section a{
+    margin-left: 70%;
+    font-size: 40px;
+}
+
+.skills_sec{
+    display:block;
+
+    font-size: 25px;
+}
+
+.skills_sec li{
+    padding: 10px;
+
+}

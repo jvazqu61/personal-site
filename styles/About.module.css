@@ -1,0 +1,28 @@
+.main{
+    color: antiquewhite;    
+    display: flex; 
+}
+
+.main img{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.about_section{
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 20px;
+    padding: 3%;
+    height: 600px;
+    border-color:white ;
+    border: solid 1px;
+    border-radius: 1.5rem;
+}
+
+
+.about_info{
+   width: 60%;
+   margin: 30px;
+   
+}
