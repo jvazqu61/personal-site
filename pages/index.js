@@ -16,7 +16,6 @@ export default function Home() {
       </Head>
 
       {/* sections */}
-      <main >
         {/* about (section name to left) */}
         <About />
         
@@ -30,11 +29,8 @@ export default function Home() {
         
        
 
-        
-      </main>
-
       <footer className={styles.footer}>
-       Juan Vazquez 2022
+       <p>&#169;  Juan Vazquez 2022</p> 
       </footer>
     </div>
   )

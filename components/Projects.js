@@ -1,7 +1,9 @@
+import styles from '../styles/Projects.module.css';
+
 
 function Projects() {
   return (
-    <section style={{height:'600px'}}>
+    <section className={styles.section}>
          <a name='projects'>Projects</a> 
     </section>
   )

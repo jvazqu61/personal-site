@@ -1,0 +1,10 @@
+.section{
+    color:antiquewhite;
+    margin:1.5rem;
+    border: solid 1px;
+    border-color: antiquewhite;
+    padding: 3%;
+    border-radius: 1.5rem;
+    width: 97%;
+    height: 100vh;
+}
