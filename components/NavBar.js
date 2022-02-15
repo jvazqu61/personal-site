@@ -1,9 +1,6 @@
 import Link from 'next/link';
 import styles from '../styles/NavBar.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faFile} from '@fortawesome/free-solid-svg-icons';
-
+import { BsGithub, BsFillFileEarmarkPersonFill} from 'react-icons/bs';
 
 function NavBar() {
   return (
@@ -20,12 +17,12 @@ function NavBar() {
             
             <ul >
                 <li>
-                    {/* <FontAwesomeIcon className={styles.icons} icon={faGithub} /> */}
-                    <a href='https://github.com/jvazqu61'>Git</a>
+                    
+                    <a href='https://github.com/jvazqu61'><BsGithub style={{fontSize:'35px'}}/></a>
                 </li>
                 <li>
                     {/* <FontAwesomeIcon size='xs' icon={faFile}/> */}
-                    <a href=''>Resume</a>
+                    <a href=''><BsFillFileEarmarkPersonFill style={{fontSize:'35px'}}/></a>
                 </li>
             </ul>
         </nav> 
