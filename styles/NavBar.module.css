@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
 
 .header{
-    width: 90%;
-    height: 60px;
+    min-width: 400px;
+    max-height: 100px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding: 30px 10%;
     box-sizing: border-box;
-    margin: 3rem;
+    margin: 2rem;
     padding: 0;
     border: solid white;
     border-radius: 2rem;

@@ -1,7 +1,3 @@
-.container {
-  /* padding: 0 2rem; */
-}
-
 
 
 .footer {
@@ -10,14 +6,17 @@
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   color: antiquewhite;
+  min-width: 440px;
+  max-width: 1500px;
+  position: relative;
 }
 
 .footer a {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 1; */
 }
 

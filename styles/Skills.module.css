@@ -1,18 +1,20 @@
 .section{
     color:antiquewhite;
-    margin:1.5rem;
+    margin:2rem;
     border: solid 1px;
     border-color: black;
     padding: 3%;
     border-radius: 1.5rem;
-    width: 97%;
+    min-width: 97%;
     background-color: #35353a;
     box-shadow: 0px 0px 7px rgb(124, 124, 124);
-    
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 .section img{
-    width: 400px;
+    width: 300px;
+    max-width: 400px;
     height:200px;
 }
 

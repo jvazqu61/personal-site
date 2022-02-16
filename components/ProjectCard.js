@@ -1,13 +1,13 @@
 import styles from '../styles/ProjectCard.module.css';
-
+import 'aos/dist/aos.css';
 function ProjectCard({name,info,link,languages}) {
   return (
-    <div className={styles.card}>
+    <div data-aos='fade-up' className={styles.card}>
         <h2>{name}</h2>
-        <main>
-            {info}
-            <h4>languages used</h4>
-            <div className={styles.languages}>
+        <main  className={styles.languages}>
+            <p>{info}</p>
+            <t>Developed Using</t>
+            <div >
                 
                 {languages?.map((card, key) => {
                     return (
@@ -16,7 +16,7 @@ function ProjectCard({name,info,link,languages}) {
                 })}
                 
             </div>
-
+            
             
         </main>
         <footer>{link}</footer>

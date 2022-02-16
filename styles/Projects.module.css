@@ -5,14 +5,30 @@
     border-color: black;
     padding: 3%;
     border-radius: 1.5rem;
-    width: 97%;
-    height: 100vh;
-    display: flex;
-    flex-grow: inherit;
+    min-width: 97%;
+    min-height: 100vh;
     background-color: #35353a;
     box-shadow: 0px 0px 7px rgb(124, 124, 124);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-items: flex-start ;
+
 }
 
 .section a{
     font-size: 48px;
+}
+
+.icons{
+    margin-right: 15px;
+    font-size: 35px;
+    color:rgb(69, 141, 236);
+    
 }

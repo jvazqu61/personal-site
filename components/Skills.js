@@ -1,27 +1,11 @@
 import styles from '../styles/Skills.module.css';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
-import {useEffect} from 'react';
 
 function Skills() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, [])
-
 
   return (
     <section className={styles.section}>
           <a name='skills'>Skills</a>
-      
-            {/* <ul className={styles.skills_sec}>
-                <li>Data Structures</li>
-                <li>Algorithms</li>
-                <li>Programing Logic</li>
-                <li>Git</li>
-                <li>Agile</li>
-                <li>Communicaton</li>
-                <li>Leadership</li>
-            </ul> */}
             <div className={styles.skills}>
               <div data-aos='fade-up'>
                 <h1>Data Structures</h1>

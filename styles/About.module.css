@@ -1,6 +1,7 @@
 .main{
     color: antiquewhite;    
     display: flex; 
+    flex-wrap: wrap;
 }
 
 .main img{
@@ -12,9 +13,11 @@
 .about_section{
     /* color: antiquewhite; */
     font-size: 20px;
-    margin: 20px;
-    padding: 3%;
-    height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1%;
+    min-width: 97%;
+    min-height: 600px;
     border-color:white ;
     border: solid 1px;
     border-radius: 1.5rem;

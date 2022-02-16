@@ -14,14 +14,11 @@ function NavBar() {
             </ul>
         </nav>
         <nav className={styles.navright}>
-            
             <ul >
                 <li>
-                    
                     <a href='https://github.com/jvazqu61'><BsGithub style={{fontSize:'35px'}}/></a>
                 </li>
                 <li>
-                    {/* <FontAwesomeIcon size='xs' icon={faFile}/> */}
                     <a href=''><BsFillFileEarmarkPersonFill style={{fontSize:'35px'}}/></a>
                 </li>
             </ul>
