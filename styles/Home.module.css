@@ -6,17 +6,9 @@
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
-  /* align-items: center; */
   color: antiquewhite;
   min-width: 440px;
-  max-width: 1500px;
+  max-width: 1500vw;
   position: relative;
-}
-
-.footer a {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1; */
 }
 

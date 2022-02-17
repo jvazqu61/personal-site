@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from '../styles/NavBar.module.css';
 import { BsGithub, BsFillFileEarmarkPersonFill} from 'react-icons/bs';
+import Resume from '../public/resume.pdf';
 
 function NavBar() {
   return (
@@ -19,7 +20,7 @@ function NavBar() {
                     <a href='https://github.com/jvazqu61'><BsGithub style={{fontSize:'35px'}}/></a>
                 </li>
                 <li>
-                    <a href=''><BsFillFileEarmarkPersonFill style={{fontSize:'35px'}}/></a>
+                    <a href='../public/resume.pdf'download><BsFillFileEarmarkPersonFill style={{fontSize:'35px'}}/></a>
                 </li>
             </ul>
         </nav> 

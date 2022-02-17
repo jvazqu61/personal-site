@@ -1,5 +1,5 @@
 .section{
-    color:antiquewhite;
+    color:white;
     margin:2rem;
     border: solid 1px;
     border-color: black;
@@ -34,7 +34,8 @@
 
 .section a{
     margin-left: 70%;
-    font-size: 40px;
+    font-size: 48px;
+    color:antiquewhite;
 }
 
 .skills_sec{

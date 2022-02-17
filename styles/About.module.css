@@ -1,5 +1,5 @@
 .main{
-    color: antiquewhite;    
+    color: white;    
     display: flex; 
     flex-wrap: wrap;
 }
@@ -11,7 +11,6 @@
 }
 
 .about_section{
-    /* color: antiquewhite; */
     font-size: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -25,9 +24,16 @@
     box-shadow: 0px 0px 7px rgb(124, 124, 124);
 }
 
+.about_section a{
+    color: antiquewhite;
+    font-size: 48px;
+    margin:20px;
+    padding-top: 2rem;
+}
 
 .about_info{
    width: 60%;
-   margin: 30px;
+   margin: 40px;
+   margin-top: 60px;
    
 }
