@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
 
-.header{
-    min-width: 400px;
-    max-height: 100px;
+
+.navbar{
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    margin: 2rem;
-    padding: 0;
-    border: solid white;
-    border-radius: 2rem;
-    background-color:#35353a;
+    background-color: #35353a;
+    color: antiquewhite;
+    position: relative;
+    min-height: 70px;
+    margin:1.2rem;
+    border-radius: 1.5rem;
+    min-width: 95%;
     
 }
+
 .title{
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
@@ -25,57 +26,77 @@
 
 }
 
-.icons{
-    font-size: 5px!important;
+.nav_links{
+    height: 100%;
 }
 
-.header nav{
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+.nav_links ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav_links li{
+    list-style: none;
+    
+}
+
+.nav_links li a{
     text-decoration: none;
-    /* width:40%; */
-    
-    
+    padding: 1rem;
+    display: block;
+    font-size: 18px;
+    border-radius: 1rem;
 }
-.navcenter{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding-left: 30px ;
+.nav_links li a:hover{
+    background-color: cornflowerblue;
 }
 
-.navcenter li{
-    display:inline-block;
-    padding: 0px 20px;
-    color: antiquewhite;
-    
-}
-
-.navcenter li a{
-    transition: all 0.3 ease 0s;
-}
-
-
-.navright{
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navright li{
-    display:inline-block;
-    padding: 0px 20px;
-    color: antiquewhite;
+.menu_icon{
+    font-size: 30px;
+    position:absolute;
+    top: .75rem;
+    right: 1rem;
+    margin: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content:end;
     
 }
 
-.navright li a{
-    transition: all 0.3 ease 0s;
+.links_active {
+    display: flex!important;
 }
 
+@media (max-width: 600px) {
+    .menu_icon{
+        display: flex;
+    }
 
-.header li a:hover{
-    color: cornflowerblue;
+    .nav_links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_links ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav_links li{
+        text-align: center;
+    }
+    /* .nav_links.active{
+        display: flex;
+    } */
+    .title{
+        padding-top:1.5rem
+    }
+    
 }
 
